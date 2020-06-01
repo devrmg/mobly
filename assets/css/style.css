@@ -1,0 +1,252 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+*/
+
+
+/* Fontes */
+
+@font-face {
+	font-family: Rubik-Light;
+	src: url('../fonts/Rubik-Light.ttf');
+}
+
+@font-face {
+	font-family: Rubik-Medium;
+	src: url('../fonts/Rubik-Medium.ttf');
+}
+
+@font-face {
+	font-family: Rubik-Bold;
+	src: url('../fonts/Rubik-Bold.ttf');
+}
+
+@font-face {
+	font-family: Rubik-Regular;
+	src: url('../fonts/Rubik-Regular.ttf');
+}
+
+body {
+	width: 100%;
+	margin: 0%;
+}
+
+
+/* Banner OCulto*/
+
+@media (min-width: 640px) {
+	.banner-2 {
+		display: none;
+	}
+}
+
+.banner {
+	width: 100%;
+}
+
+
+/* Titulo Principal */
+
+.first {
+	padding: 50px 24px 50px 24px;
+}
+
+h1 {
+	color: #707070;
+	font-size: 40px;
+	font-family: 'Rubik-Light';
+	font-weight: 300;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.font-d {
+	color: #707070;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Rubik-Light';
+	line-height: 1.2;
+	margin-bottom: 22px;
+	text-align: center;
+}
+
+
+/* Destaque , Parcelamento */
+
+.font-a {
+	color: #707070;
+	font-family: 'Rubik-Regular';
+}
+
+.font-b {
+	color: #5f23a8;
+	font-family: 'Rubik-Medium';
+	font-weight: 500;
+}
+
+.font-c {
+	color: #707070;
+	font-family: 'Rubik-Medium';
+	font-weight: 500;
+}
+
+
+/* Texto 2 -- 'Como Funciona' */
+
+.txt2 {
+	color: #FFFFFF;
+	background-color: #FF4200;
+	padding: 50px 0px 50px 0px;
+}
+
+h2 {
+	font-family: 'Rubik-Medium';
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.text2 {
+	color: #FFFFFF;
+	font-family: 'Rubik-Light', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 1.2;
+	text-align: center;
+}
+
+
+/* Ocultar botão */
+
+@media (min-width: 640px) {
+	.botao,
+	.botao2 {
+		display: none;
+	}
+}
+
+
+/* 'Entenda mais' , Descricões de Servicos  */
+
+.icon {
+	width: 105px;
+}
+
+section {
+	background-color: #F2F2F2;
+	padding: 50px 0px 0px 0px;
+}
+
+.demo {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.flex-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: baseline;
+	-ms-flex-align: baseline;
+	align-items: baseline;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	line-height: 1.2;
+	margin: 0%;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+.flex-items {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 478px;
+	flex: 0 0 478px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: 30px;
+	text-align: center;
+}
+
+.maior {
+	color: #707070;
+	font-size: 30px;
+	font-weight: 500;
+	font-family: 'Rubik-Medium';
+	line-height: 1.2;
+}
+
+.menor {
+	color: #707070;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Rubik-Light', sans-serif;
+	line-height: 1.2;
+}
+
+
+/* Texto Catálogo */
+
+.catalogo {
+	background-color: #5F23A8;
+	padding: 23px;
+	text-align: center;
+}
+
+.catalogo a {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	font-size: 22px;
+	line-height: 1.2;
+	text-decoration: none;
+}
+
+
+/* Texto Atenção */
+
+.atencao {
+	padding: 50px;
+	text-align: center;
+}
+
+.aten2 {
+	color: #6D1EAD;
+	font-size: 30px;
+	font-weight: 500;
+	font-family: 'Rubik-Medium';
+}
+
+strong {
+	color: #707070;
+	font-family: 'Rubik-Medium';
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.2;
+}
+
+ul li {
+	font-size: 18px;
+	list-style: none;
+}
+
+
+/* Rodapé */
+
+footer {
+	background-color: #E5E5E5;
+	padding: 30px;
+}

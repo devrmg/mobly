@@ -1,2 +1,0 @@
-# mobly
-Teste técnico Mobly

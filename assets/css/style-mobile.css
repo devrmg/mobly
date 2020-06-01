@@ -1,0 +1,237 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+*/
+
+
+/* Fontes */
+
+@font-face {
+    font-family: Rubik-Light;
+    src: url('../fonts/Rubik-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: Rubik-Medium;
+    src: url('../fonts/Rubik-Medium.ttf');
+  }
+  
+  @font-face {
+    font-family: Rubik-Bold;
+    src: url('../fonts/Rubik-Bold.ttf');
+  }
+  
+  @font-face {
+    font-family: Rubik-Regular;
+    src: url('../fonts/Rubik-Regular.ttf');
+  }
+  
+  
+  /* Variaveis */
+  
+  body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+  }
+  
+  
+  /* BANNER-MOBILE */
+  
+  @media (max-width: 640px) {
+    .banner {
+      display: none;
+    }
+  }
+  
+  .banner-2 {
+    width: 100%
+  }
+  
+  
+  /* Titulo Principal */
+  
+  .first {
+    padding: 50px 24px 50px 24px;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-family: 'Rubik-Light';
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  .font-d {
+    color: #707070;
+    font-weight: 300;
+    font-family: 'Rubik-Light';
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 22px;
+    text-align: center;
+  }
+  
+  
+  /* Destaque , Parcelamento */
+  
+  .font-a {
+    font-family: 'Rubik-Regular';
+  }
+  
+  .font-b , .font-c {
+    font-family: 'Rubik-Medium';
+    font-weight: 500;
+  }
+  
+
+  /* Como Funciona */
+  
+  .txt2 {
+    padding: 50px 23px 50px 23px;
+  }
+  
+  .text2-h2 {
+    font-weight: 500;
+    font-family: 'Rubik-Medium';
+    line-height: 1.2;
+    margin-bottom: 25px;
+  }
+  
+  .text2 {
+    color: white;
+    font-family: 'Rubik-Light', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 22px;
+  }
+  
+  
+  /* Botões */
+  
+  .botao {
+    text-align: center;
+  }
+  
+  .botao2 {
+    margin: 50px 0 30px 0;
+    text-align: center;
+  }
+  
+  button {
+    border-style: none;
+    background-color: #5f23a8;
+    border-radius: 4px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    opacity: 1;
+    padding: 12px 49px;
+  }
+  
+  
+  /* 'Entenda mais' , Descricões de Servicos */
+  
+  .entenda {
+    color: #5f23a8;
+    font-size: 25px;
+    font-family: 'Rubik-Medium', sans-serif;
+    line-height: 1.2;
+  }
+  
+  
+  /* Icon da Informações */
+  
+  .icon {
+    margin: auto;
+    width: 105px;
+  }
+  
+  .flex-opacit {
+    font-weight: 500;
+    font-family: 'Rubik-Medium';
+    line-height: 1.2;
+    margin-bottom: 25px;
+  }
+  
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .flex-items {
+    text-align: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    ;
+  }
+  
+  
+  /* Tamanho de Fontes */
+  
+  .maior {
+    font-size: 25px;
+  }
+  
+  .menor {
+    color: #707070;
+    font-family: "Rubik-Light", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 21px;
+  }
+  
+  
+  /* Ocultar Catálago */
+  
+  @media (max-width: 640px) {
+    .catalogo {
+      display: none;
+    }
+  }
+  
+  
+  /* Texto Atenção  */
+  
+  .atencao {
+    padding: 0px 24px 0px 24px;
+    text-align: center;
+  }
+  
+  .aten2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 50px;
+  }
+  
+  li,
+  strong {
+    color: #707070;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .parag {
+    color: #707070;
+    font-family: 'Rubik-Light';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  
+  ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* Rodapé */
+  
+  footer {
+    margin-top: 30px;
+    margin: 0%;
+  }
